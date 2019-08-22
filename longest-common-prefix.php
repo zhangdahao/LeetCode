@@ -1,3 +1,5 @@
+<?php
+
 class Solution {
 
     /**
@@ -23,3 +25,5 @@ class Solution {
         return $strs[0];
     }
 }
+
+?>
