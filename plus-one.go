@@ -3,7 +3,7 @@ func plusOne(digits []int) []int {
 	flag := 1
 	for i := len(digits) - 1; i >= 0; i-- {
 		if flag != 0 {
-			if digits[i]+1 > 9 {
+			if digits[i] == 9 {
 				flag = 1
 				digits[i] = 0
 			} else {
